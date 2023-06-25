@@ -1,0 +1,24 @@
+{
+    "name": "amin/mvc",
+    "description": "For implement mvc",
+    "type": "project",
+    "license": "mit",
+    "autoload": {
+        "classmap": ["bootstrap/"],
+        "psr-4": {
+            "App\\": "app/"
+        }
+    },
+    "authors": [
+        {
+            "name": "amin",
+            "email": "amikavousi@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "nubs/random-name-generator": "dev-master",
+        "nikic/fast-route": "2.0.x-dev",
+        "league/plates": "v3.x-dev"
+    }
+}
